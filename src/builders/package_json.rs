@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use crate::config::Config;
+use crate::builders::config::Config;
 
 type Scripts = HashMap<&'static str, &'static str>;
 

@@ -3,9 +3,9 @@ use std::env::args;
 
 #[derive(Debug)]
 pub struct Config {
-    pub name: String,
     pub current_dir: Option<String>,
     pub with_latest: bool,
+    pub name: String,
     pub folders: Vec<String>,
     pub builder: Option<String>,
     pub keywords: Vec<String>,
